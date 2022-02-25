@@ -1,0 +1,26 @@
+/* Helper Styles: Do not Delete */
+body {
+	margin:  0;
+	padding:  0;
+	box-sizing:  border-box;
+}
+
+/* Put your CSS Styles Below this Line */
+
+h1 { size: 48px;
+
+}
+
+h2 {
+
+
+}
+
+h3 {
+
+}
+
+header{
+	background-color: tan;
+}
+
