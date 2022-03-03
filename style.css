@@ -3,11 +3,16 @@ html{
 	height: 100%x;
 
 }
-body {
+body{
+	background: repeating-linear-gradient( 180deg,
+  rgba(201, 178, 141, 1),
+  rgba(201, 178, 141, 1) 20px,
+  rgba(201, 178, 141, 1)20px,
+  rgba(144, 38, 20, .5)  30px);
 	margin: 0px;
 	padding: 0px;
 	box-sizing:  border-box;
-	background-color: tan;
+	background-color: #c7a57a;
 
 }
 .footer{
@@ -16,7 +21,7 @@ body {
   top: 1650px;
   height: 25%;
   width: 100%;
-  background-color: #fff;
+  background-color: #902614;
   text-align: center;
 	
 }
@@ -37,7 +42,7 @@ p{
 	margin: 0px;
 }
 h1{ 
-	color: #902614 ;
+	color:#902614  ;
 	size: 48px;
 	line-height:  28px;
 	margin:  0;
@@ -52,7 +57,7 @@ h1{
 
 h2 {
 	font-family: 'Dongle', sans-serif;
-	size: 18spx;
+	size: 18px;
 	margin: -10px;
 	color:#902614 ;
 
@@ -72,17 +77,16 @@ br{
 
 }
 a{
-	color: #902614;
+	color: #c7a57a;
 }
 .name{
 	padding-bottom: 20px;
 	font-size: 28px;
-	color: #902614;
+	color: #c7a57a;
 
 }
 .words{
-	padding-bottom: 5px;
-	color: ;
+	padding-top: 10px;
 
 }
 
@@ -92,16 +96,16 @@ margin: 0px;
 position: relative;
 top: 50px;
 right: 50px;
-color: #902614;
+color: #c7a57a;
 
 }
 .menu_list a{
-	color: #902614;
+	color: #c7a57a;
 
 
 }
 .menu_list hover{
-	color: #902614;
+	color: #c7a57a;
 	display: flex;
 }
 
@@ -135,7 +139,7 @@ color: #902614;
 
 
 header {
-	background-color:  white;
+	background-color:#902614;
 	display: flex;
 	justify-content: space-between;
 	padding-bottom: 35px;
@@ -432,6 +436,9 @@ bottom: 30px;
 	position: relative;
 	bottom: 200px;
 }
+.menu_items h1, h2{
+	color: #c7a57a;
+}
 
 .specials{
 	position: relative;
@@ -441,10 +448,11 @@ bottom: 30px;
 	width: 1250px;
 	height:  350px;
 	text-align: center;
-	background-color:  #fff;
+	background-color:  #902614;
 	border: solid 2px #902614;
 	border-radius: 20px;
 	overflow-x:  scroll;
+}
 }
 .specials_title{
 	position: sticky ;
@@ -467,6 +475,8 @@ bottom: 30px;
 	width: 250px;
 	height: 250px;
 	object-fit: cover;
+	border: solid #fff 2px;
+	border-radius: 20px;
 }
 .specials_imgs h2{
 	position: relative;
@@ -483,8 +493,7 @@ bottom: 30px;
 	height: 250px;	
 }
 .caramel img{
-	border: 2px solid #902614 ;
-	border-radius: 20px;
+	
 
 }
 .apple_muffin{
@@ -495,8 +504,7 @@ bottom: 30px;
 	height: 250px;	
 }
 .apple_muffin img{
-	border: solid #902614 2px;
-	border-radius: 20px;
+	
 }
 .dolce{
 	margin-right: auto;
@@ -506,8 +514,7 @@ bottom: 30px;
 	height: 250px;	
 }
 .dolce img{
-	border: 2px solid #902614 ;
-	border-radius: 20px;
+	
 
 }
 .donuts{
@@ -519,8 +526,7 @@ bottom: 30px;
 
 }
 .donuts img{
-	border: solid 2px #902614;
-	border-radius: 20px;
+
 }
 .croissants{
 	margin-right: auto;
@@ -530,8 +536,7 @@ bottom: 30px;
 	height: 250px;
 	}	
 .croissants img{
-	border: solid 2px #902614;
-	border-radius: 20px;
+	
 }
 .yogurt{
 	margin-right: auto;
@@ -542,7 +547,10 @@ bottom: 30px;
 
 }
 .yogurt img{
-	border: solid 2px #902614;
+	
+}
+.bottom_menu img{
+	border: solid #fff 2px;
 	border-radius: 20px;
 }
 .latte{
@@ -550,7 +558,7 @@ bottom: 30px;
 	position: absolute;
 	top: 600px;
 	left: 80px;
-	background-color: #fff;
+	background-color: #902614;
 	text-align: center;
 	width: 350px;
 	height:970px;
@@ -561,8 +569,7 @@ bottom: 30px;
 	object-fit: cover;
 	width: 250px;
 	height: 250px;
-	border: solid 2px #902614;
-	border-radius: 20px;
+
 }
 .vanilla{
 	margin-top: auto;
@@ -579,7 +586,7 @@ bottom: 30px;
 	position: absolute;
 	top: 600px;
 	left: 1000px;
-	background-color: #fff;
+	background-color: #902614;
 	text-align: center;
 	width: 350px;
 	height:970px;
@@ -591,8 +598,7 @@ bottom: 30px;
 	object-fit: cover;
 	width: 250px;
 	height: 250px;
-	border: solid 2px #902614;
-	border-radius: 20px;
+
 }
 .caramel_biscuits{
 	padding-top: 10px;
@@ -608,7 +614,7 @@ bottom: 30px;
 	position: absolute;
 	top: 600px;
 	left: 540px;
-	background-color: #fff;
+	background-color: #902614;
 	text-align: center;
 	width: 350px;
 	height:970px;
@@ -619,8 +625,6 @@ bottom: 30px;
 	object-fit: cover;
 	width: 250px;
 	height: 250px;
-	border: solid 2px #902614;
-	border-radius: 20px;
 
 }
 .peppermint{
@@ -635,10 +639,13 @@ bottom: 30px;
 .footer img{
 padding: 40px;
 }
+.footer h2{
+	color: #c7a57a;
+}
 .footer_logos img{
 	object-fit: cover;
-	width: 40px;
-	height: 40px;
+	width: 20px;
+	height: 20px;
 }
 .footer_list li{
 	position: relative;
@@ -648,8 +655,32 @@ padding: 40px;
 	padding: 20px;
 	text-align: center;
 }
+#phone_number{
+	display: flex;
+	position: absolute;
+	left: 48%;
+	bottom: 110px;
+}
+.contact{
+	margin: 0 auto;
+	margin-top: 30px;
+	background-color:  #902614;
+	width: 1000px;
+	height: 1000px;
 
-
+}
+.contact h1{
+	color: #c7a57a;
+}
+.name_registration{
+	font-family:  'dongle', sans-serif;
+	display: flex;
+	justify-content: center;
+}
+.fname{
+	width: 500px;
+}
+}
 
 
 
